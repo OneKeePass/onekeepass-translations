@@ -22,6 +22,7 @@
         "passwordIsChanged": "Salasana vaihdetaan, eikä sitä käytetä pääavaimessa",
         "passwordNotUsed": "Salasana poistetaan, eikä sitä käytetä pääavaimessa",
         "passwordWillBeChanged": "Salasanaa aiotaan muuttaa..",
+        "directoryUsedForDatabaseBackups": "Hakemisto tietokantavarmuuskopioita varten",
         "requiresApplicationRestart": "Vaatii sovelluksen uudelleen käynnistyksen",
         "selectAValidGroup": "Ole hyvä ja valitse sopiva ryhmä",
         "selectTag": "Valitse tunniste tai aloita uuden tunnisteen syöttäminen ja lisää"
@@ -40,6 +41,9 @@
         "start": "Aloita",
         "security": "Turvallisuus",
         "selectAGroup": "Valitse ryhmä",
+        "backups": "Varmuuskopiot",
+        "extensions": "Laajennukset",
+        "supportedBrowsers": "Tuetut selaimet",
         "timeouts": "Aikakatkaisut",
         "userInterface": "Käyttöliittymä",
         "unlockDatabase": "Avaa tietokanta"
@@ -169,6 +173,11 @@
         "view": "Näytä",
         "veryWeak": "Erittäin heikko",
         "weak": "Heikko",
+        "backupDir": "Varmuuskopion hakemisto",
+        "browserIntegration": "Selaimen integraatio",
+        "enableBackup": "Ota varmuuskopiointi käyttöön",
+        "enableBrowserIntegration": "Ota selaimen integraatio käyttöön",
+        "fileManagement": "Tiedostojen hallinta",
         "wordList": "Sanalista",
         "words": "Sanat"
     },
@@ -211,6 +220,7 @@
             "otpDelete": "Poista kertakäyttöinen salsasana",
             "otpSetup": "TOTP asetukset",
             "passwordGenerator": "Salasanageneraattori",
+            "permitBrowserConnection": "Salli selainliitäntä",
             "putBack": "Laita takaisin",
             "reloadingDatabase": "Ladataan tietokantaa uudelleen",
             "restoreEntry": "Palauta merkintä",
@@ -218,6 +228,7 @@
             "search": "Etsi",
             "sectionField1": "Lisää kenttä {{sectionName}}",
             "sectionField2": "Muokkaa kenttää {{sectionName}}",
+            "allowFolderAccess": "Salli kansion käyttö",
             "unsavedChanges": "Muutoksia ei tallennettu"
         },
         "texts": {
@@ -256,9 +267,12 @@
             "mergingExternalChangesTxt": "Yhdistetään levyversiota nykyiseen tietokantaan...",
             "moveCompletedPendingSave": "Siirto on valmistunut onnistuneesti, mutta muutoksia ei ole vielä tallennettu. Sekä lähde- että kohdetietokannat on merkitty muutetuiksi — voit tallentaa ne myöhemmin käyttämällä Tallenna-painiketta työkalurivissä tai Tiedosto-valikosta.",
             "otpDelete": "Haluatko poistaaa tämän TOTP kentän?",
+            "permitBrowserConnectionTxt": "Selaimen laajennus pytää lupaa muodostaa yhteys OneKeepassiin. Jos luotat tähän laajennukseen, napsauta 'Salli'. Muussa tapauksessa napsauta 'Hylkää'.",
             "reloadingFromDiskTxt": "Ladataan uudelleen levyltä...",
             "restoreEntry": "Nykyinen merkintä korvataa tällä merkinnällä",
             "saveBothDatabases": "Sekä lähde- että kohdetietokanta on muutettu. Tallennetaanko ne nyt?",
+            "installGrantTxt1": "macOS vaatii OneKeePassia saamaan nimenomaisen luvan kirjoittaa selaimen laajennusmanifestin. Seuraavassa valintaikkunassa siirry:",
+            "installGrantTxt2": "Napsauta \"Salli\" myöntääksesi käyttöoikeus. Tämä on kertaluonteinen kehotus per selain.",
             "unsavedChangesTxt1": "Muutoksia on vielä tallennettavana. Tallenna ennen tietokanna lukitsemista",
             "unsavedChangesTxt2": "Muutoksia on vielä tallennettavana.Haluatko tallentaa ja lopettaat?",
             "unsavedChangesTxt3": "Muutoksia on vielä tallennettavana. Haluatko tallentaa ennen tietokannan sulkemista?"
@@ -358,11 +372,14 @@
         "overwrite": "Ylikirjoita",
         "quit": "Lopeta",
         "quickUnlock": "Nopea lukisemisnen",
+        "reject": "Hylkää",
         "reload": "Lataa uudelleen",
         "removeKeyFile": "Poista avaintiedosoto",
         "removePassword": "Poista salasana",
         "restore": "Palauta",
         "saveAs": "Tallenna nimellä",
+        "allow": "Salli",
+        "later": "Myöhemmin",
         "save": "Tallenna",
         "yes": "Kyllä",
         "yesOverwrite": "Kyllä, ylikirjoita"

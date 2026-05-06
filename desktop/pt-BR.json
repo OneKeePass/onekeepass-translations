@@ -22,6 +22,7 @@
         "passwordIsChanged": "A senha foi removida e não é usada na chave mestra",
         "passwordNotUsed": "A senha foi removida e não é usada na chave mestra",
         "passwordWillBeChanged": "A senha será alterada...",
+        "directoryUsedForDatabaseBackups": "Diretório usado para backups do banco de dados",
         "requiresApplicationRestart": "Requer reinicialização do aplicativo",
         "selectAValidGroup": "Selecione um grupo válido",
         "selectTag": "Selecione uma etiqueta ou comece a digitar uma nova etiqueta e adicione"
@@ -40,6 +41,9 @@
         "start": "Início",
         "security": "Segurança",
         "selectAGroup": "Selecione um grupo",
+        "backups": "Backups",
+        "extensions": "Extensões",
+        "supportedBrowsers": "Navegadores suportados",
         "timeouts": "Tempos limite",
         "userInterface": "Interface do usuário",
         "unlockDatabase": "Desbloquear banco de dados"
@@ -169,6 +173,11 @@
         "view": "Visualizar",
         "veryWeak": "Muito fraca",
         "weak": "Fraca",
+        "backupDir": "Diretório de backup",
+        "browserIntegration": "Integração com navegador",
+        "enableBackup": "Ativar backup",
+        "enableBrowserIntegration": "Ativar integração com navegador",
+        "fileManagement": "Gerenciamento de arquivos",
         "wordList": "Lista de palavras",
         "words": "Palavras"
     },
@@ -211,6 +220,7 @@
             "otpDelete": "Excluir senha de uso único",
             "otpSetup": "Configuração de TOTP",
             "passwordGenerator": "Gerador de senhas",
+            "permitBrowserConnection": "Permitir conexão do navegador",
             "putBack": "Restaurar",
             "reloadingDatabase": "Recarregando banco de dados",
             "restoreEntry": "Restaurar entrada",
@@ -218,6 +228,7 @@
             "search": "Pesquisar",
             "sectionField1": "Adicionar campo em {{sectionName}}",
             "sectionField2": "Modificar campo em {{sectionName}}",
+            "allowFolderAccess": "Permitir acesso à pasta",
             "unsavedChanges": "Alterações não salvas"
         },
         "texts": {
@@ -256,9 +267,12 @@
             "mergingExternalChangesTxt": "Mesclando a versão do disco no banco de dados atual...",
             "moveCompletedPendingSave": "A movimentação foi concluída com sucesso, mas as alterações ainda não foram salvas. Os bancos de dados de origem e destino estão marcados como modificados. Você pode salvá-los depois usando o botão Salvar na barra de ferramentas ou no menu Arquivo.",
             "otpDelete": "Tem certeza de que deseja excluir este campo TOTP?",
+            "permitBrowserConnectionTxt": "Uma extensão do navegador está solicitando permissão para se conectar ao OneKeepass. Se você confia nesta extensão, clique em 'Permitir'. Caso contrário, clique em 'Rejeitar'.",
             "reloadingFromDiskTxt": "Recarregando do disco...",
             "restoreEntry": "A entrada existente será substituída por esta entrada do histórico",
             "saveBothDatabases": "Os bancos de dados de origem e destino foram modificados. Deseja salvá-los agora?",
+            "installGrantTxt1": "O macOS exige que o OneKeePass tenha permissão explícita para escrever o arquivo de manifesto da extensão do navegador. Na próxima caixa de diálogo, navegue até:",
+            "installGrantTxt2": "Clique em «Permitir» para conceder acesso. Este é um aviso único por navegador.",
             "unsavedChangesTxt1": "Há alterações ainda não salvas. Salve antes de bloquear o banco de dados",
             "unsavedChangesTxt2": "Há alterações ainda não salvas. Deseja salvar e sair?",
             "unsavedChangesTxt3": "Há alterações ainda não salvas. Deseja salvar antes de fechar o banco de dados?"
@@ -358,11 +372,14 @@
         "overwrite": "Substituir",
         "quit": "Sair",
         "quickUnlock": "Desbloqueio rápido",
+        "reject": "Rejeitar",
         "reload": "Recarregar",
         "removeKeyFile": "Remover arquivo-chave",
         "removePassword": "Remover senha",
         "restore": "Restaurar",
         "saveAs": "Salvar como",
+        "allow": "Permitir",
+        "later": "Mais tarde",
         "save": "Salvar",
         "yes": "Sim",
         "yesOverwrite": "Sim, substituir"
