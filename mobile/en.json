@@ -149,6 +149,7 @@
         "passport": "Passport",
         "sftpConnection": "SFTP Connection",
         "softwareLicense": "Software License",
+        "sshKey": "SSH Key",
         "sshLogin": "SSH Login",
         "webDavConnection": "WebDAV Connection",
         "wirelessRouter": "Wireless Router"
