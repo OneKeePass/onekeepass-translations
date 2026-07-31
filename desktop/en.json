@@ -1,5 +1,7 @@
 {
     "helperTexts": {
+        "autoSaveHelp": "Saves the database automatically once an edit is complete. Imports, merges, deletions and moves are not auto saved — those wait for you to review and save.",
+        "backupMaxCopiesHelp": "How many backup copies to keep for each database. The oldest are removed once this many exist.",
         "cardVerificationValue/Number": "Card Verification Value/Number",
         "copiedToClipboard": "Copied to clipboard",
         "customFieldAdded": "Custom field added. You can add more field or cancel to close",
@@ -46,6 +48,7 @@
         "newEntryType": "New Custom Entry Type",
         "openDatabase": "Open Database",
         "recent": "Recent",
+        "saving": "Saving",
         "selectAGroup": "Select a group",
         "start": "Start",
         "supportedBrowsers": "Supported Browsers",
@@ -72,6 +75,7 @@
         "appSettings": "App Settings",
         "backToEntry": "Back to Entry",
         "backupDir": "Backup dir",
+        "backupMaxCopies": "Backup copies to keep",
         "browse": "Browse",
         "browseRemote": "Browse Remote...",
         "browserIntegration": "Browser Integration",
@@ -104,6 +108,7 @@
         "destinationDatabase": "Destination database",
         "done": "Done",
         "edit": "Edit",
+        "enableAutoSave": "Auto save after an edit",
         "enableBackup": "Enable backup",
         "enableBrowserIntegration": "Enable browser Integration",
         "enableSshAgent": "Enable SSH agent",
@@ -349,6 +354,8 @@
             "mergeResultGroupsMoved": "Groups moved",
             "mergeResultGroupsUpdated": "Groups updated",
             "mergeResultMetaDataChanged": "Meta data changed",
+        "mergeResultNoChangesTxt": "Nothing was changed in this database, so there is nothing to save.",
+        "mergeResultReviewTxt": "Review these changes and save the database if you are satisfied. The merge is not saved automatically.",
             "mergingExternalChangesTxt": "Merging disk version into current database...",
             "moveCompletedPendingSave": "The move has completed successfully, but the changes have not been saved yet. Both the source and target databases are marked as modified — you can save them later using the Save button on the toolbar or from the File menu.",
             "moveNotPossibleCopies": "These databases are copies of each other. Use 'Merge Opened Databases' from the Database menu instead.",
@@ -589,6 +596,7 @@
     },
     "messages": {
         "appSettings": {
+            "backupCopiesValidVal": "Valid values should be in the range 1 - 100",
             "clipboardValidVal": "Valid values should be in the range 10 sec  - 300 sec",
             "sessionValidVal": "Valid values should be in the range 1 minute  - 1440 minutes"
         },
@@ -656,8 +664,10 @@
         "remoteUpToDate": "Remote database is up to date"
     },
     "snackbarErrorMessages": {
+        "databaseIsLocked": "The current database is locked. Unlock it first",
         "entryUuidExistsInTarget": "An entry with the same uuid already exists in the target database. Merge databases",
-        "groupUuidExistsInTarget": "A group with the same uuid already exists in the target database. Merge databases"
+        "groupUuidExistsInTarget": "A group with the same uuid already exists in the target database. Merge databases",
+        "noDatabaseOpened": "No database is opened"
     },
     "systemMenus": {
         "main": {
