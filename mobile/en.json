@@ -367,12 +367,14 @@
     "messageDialog": {
         "titles": {
             "biometricDbOpenEnabled": "Attention",
+            "newDatabaseCreated": "Database created",
             "noCamera": "No Camera",
             "dbReadOnly": "Read Only",
             "saveCompleted": "Save completed"
         },
         "texts": {
             "biometricDbOpenEnabled": "You need to login again for this change to take effect",
+            "newDatabaseCreatedNotOpened": "The database is created in the location you selected but that location is not ready to open it just yet. Please use 'Open database' and pick it from there",
             "noCamera": "No camera is found. Please enter the secret code manually",
             "dbReadOnly": "Database is opened in read only mode as there is no connection to the server",
             "saveCompleted": "The newly saved database is loaded now"
