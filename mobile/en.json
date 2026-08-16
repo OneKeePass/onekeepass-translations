@@ -299,6 +299,8 @@
             "remove": "Remove",
             "removing": "Removing {{dbFileName}}",
             "reopen": "Reopen",
+            "saveAs": "Save As",
+            "saveAsFileExists": "File Exists",
             "setupOtp": "Set up OTP",
             "pendingPasskeys": "Pending Passkeys",
             "unlockDatabase": "Unlock database",
@@ -339,6 +341,7 @@
             "pendingPasskeysMergeNeeded": "There are one or more pending passkeys and they need to be merged to the database",
             "pendingPasskeysDisableWarning": "There are pending passkeys that have not been committed to the database. Please review them before disabling autofill.",
             "pendingPasskeysMultiDb": "The following databases have pending passkeys. Open each database to review and save them.",
+            "saveAsFileExists": "A file with this name is already there in the selected folder. Do you want to overwrite it?",
             "setupOtp": "You can set up TOTP by scanning a QR code or manually entering the secret or an OTPAuth url",
             "remoteConfigNotAvailable": "This database's connection details are stored in another database that is not currently open. Open that database first and then reopen this one — or open this one read-only from the latest backup.",
             "remoteServerUnreachable": "Could not connect to the remote server. You can open this database read-only from the latest backup, or cancel and try again later."
