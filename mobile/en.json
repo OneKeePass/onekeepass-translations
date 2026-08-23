@@ -555,6 +555,7 @@
         "checkRemoteChanges": "Check Remote Changes",
         "clone": "Clone",
         "closedb": "Close Database",
+        "copyTotp": "Copy TOTP",
         "copyUserName": "Copy User Name",
         "copyPassword": "Copy Password",
         "createdTime": "Created Time",
@@ -609,6 +610,7 @@
         "autoFill": {
             "associateAppText": "Add this app to '{{title}}' so it is offered for autofill next time?",
             "associateAppTitle": "Remember this app?",
+            "codeCopiedOnSelect": "Selecting an entry copies its TOTP code, if it has one, to the clipboard and clears it again shortly after.",
             "enableMsg1": "Enable Autofill for this database",
             "enableMsg2": "You need to enable this database to use in autofill",
             "enableMsg3": "This database is ready to use in autofill",
